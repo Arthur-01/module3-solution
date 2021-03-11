@@ -1,0 +1,46 @@
+body {
+    background-color: #FFFAFA;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+#header-nav {
+    background-color: #FFD700;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+}
+.navbar-brand {
+    font-size: 30px;
+}
+.navbar-header {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+section {
+    background-color: #FFD700;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+p {
+font-size: 15px;
+}
+/*lg*/
+@media (min-width: 1200px) {
+
+}
+/*md*/
+@media (min-width: 992px) {
+
+}
+/*xs*/
+@media (max-width: 768px) {
+#collapsable-nav {
+    background-color: #FFFAFA;
+}
+#nav-list {
+    margin-top: 0;
+    text-align: center;
+}
+#nav-list a:hover {
+    background-color: #FFD700;
+}
+}
